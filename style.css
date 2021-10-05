@@ -1,1 +1,43 @@
-/* nothing here */
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&display=swap");
+
+body {
+  font-family: "Nunito", sans-serif;
+}
+
+p {
+  color: gray;
+}
+
+a {
+  text-decoration: none;
+  background-color: tomato;
+  color: white;
+  display: block;
+  width: fit-content;
+  padding: 1em;
+  border-radius: 2em;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+}
+
+.paragraph {
+  margin-bottom: 2em;
+}
+
+.creditcard {
+  margin-bottom: 2em;
+}
+
+img {
+  margin: auto;
+  display: block;
+  border-radius: 1em;
+  border: 1px solid gray;
+}
+
+body {
+  background-image: url(/images/pexels-jess-bailey-designs-743986.jpg);
+}
